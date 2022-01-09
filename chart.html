@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta charset="viewport" content="width=device-width"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>   My data   </title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.6.0/dist/chart.min.js"></script>
+
+</head>
+<body>
+<canvas id="chart" width="400" height="400"></canvas>
+
+<script>   
+const xlabels = []; 
+const yrevs = [];
+chartIt();
+
+async function chartIt(){
+await getData();
+const ctx = document.getElementById('chart').getContext('2d');
+
+const myChart = new Chart(ctx, {
+    
+    type: 'bar',
+    data: {
+        labels: xlabels,
+        datasets: [{
+            label: 'Total Percentage Decrease Of Available Jobs',
+
+            data: yrevs,
+            backgroundColor: [
+                'rgba(54, 162, 235, 0.2)',
+            ],
+            borderColor: [
+                'rgba(54, 162, 235, 1)',
+            ],
+            
+            borderWidth: 1
+        }]
+        
+    },
+    
+});
+}
+
+
+async function getData(){
+const response = await fetch('percent_dec_jobs.csv')
+const data = await response.text();
+
+const table = data.split('\n');
+
+table.forEach(row => { 
+    const columns = row.split(',');
+    const year = columns[1];
+    const rev = columns[0];
+
+    xlabels.push(year)
+    yrevs.push(rev)
+    
+});
+}
+
+// const rows = data.split('\n').splice(1);
+// const table = data.split(/\n/).splice(1);
+
+// const r1 = data.split(/\n/).splice(2);
+
+// rows.forEach(row => {
+//     const columns = row.split(',');
+//     const year = columns[0];
+//     const rev = columns[1]
+//     xlabels.push(year, rev);
+    
+// //     console.log(year, temp);
+
+// });
+// }
+
+</script>
+ 
+    
+
+</body>
+
+</html>
