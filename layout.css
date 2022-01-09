@@ -4,19 +4,41 @@
 
 
 .header{
-  background-color: aliceblue;
+  background-color: #f0f8ff;
   padding: 30px;
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  height: 100px;
+  min-height: 100px;
   margin-bottom: 5px;
   
 }
 
+#author {
+
+  border: 3px solid #f0f8ff;
+  width: 80%;
+  max-width: 500px;
+  min-width: 450px;
+  height: 120px;
+  margin: auto;
+ 
+
+}
+
+#author img {
+
+  float: left; 
+  margin-left: 15%;
+   margin-top: 20px; 
+   border-radius: 50%; 
+   width: 100px; 
+   height: 100px
+}
+
 body {
     margin-top: 50px;
-    background-color: aqua;
+    background-color: rgb(247, 235, 235);
     
 }
 
@@ -26,9 +48,15 @@ body {
   margin-right: 10%;
   margin-bottom: 50px;
   height:300px;
-  background-color:rgb(144, 207, 142);
+  background-color:rgb(166, 217, 230);
   position: relative;
 } 
+
+#intro p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
 
 #container1 {
 
@@ -46,11 +74,17 @@ body {
   width: 375px;
   height: 400px;
   margin-left: 20px;
-  background-color: blueviolet;
+
 
   float: left;
 }
 
+#figure1 img {
+
+  width: 375px;
+  height: 400px;
+
+}
 #text1 {
 
   margin-top: 15px;
