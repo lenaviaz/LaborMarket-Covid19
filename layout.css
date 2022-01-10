@@ -40,7 +40,7 @@ li {
 }
 
 li a {
-  font-size: 20px;
+  font-size: 19px;
   display: block;
   color: rgb(95, 93, 93);
   text-decoration: none;
@@ -122,7 +122,7 @@ body {
 #container2 {
 
   margin-top: 30px;
-  /* border: 3px solid rgb(0, 0, 0); */
+ /* border: 3px solid rgb(0, 0, 0);  */
   width: 900px;
   max-width: 1000px;
   min-width: 800px;
@@ -144,14 +144,15 @@ body {
 
 
 #container3 {
-  font-family: Source Sans Pro,sans-serif;
   margin-top: 30px;
-  border: 3px solid rgb(0, 0, 0);
-  width: 80%;
+ /* border: 3px solid rgb(0, 0, 0);  */
+  width: 900px;
   max-width: 1000px;
   min-width: 800px;
   height: 500px;
   margin: auto;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 17px;
 
 }
 
@@ -179,8 +180,9 @@ body {
 
 #container4 {
 
+  font-family: Source Sans Pro,sans-serif;
   margin-top: 30px;
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid rgb(0, 0, 0); 
   width: 80%;
   max-width: 1000px;
   min-width: 800px;
@@ -197,7 +199,7 @@ body {
 }
 
 #text4 {
-
+   border: 3px solid rgb(0, 0, 0); 
   font-family: Source Sans Pro,sans-serif;
   font-size: 17px;
   margin-top: 15px;
@@ -230,12 +232,13 @@ body {
 }
 
 #sidebar {
+  font-family: Source Sans Pro,sans-serif;
   float: left;
   margin-right: 99%;
   margin-left: 25px;
-  width: 150px;
+  width: 160px;
   height: 150px;
-  /* border: 2px solid #e90f7c; */
+   /* border: 2px solid #e90f7c;  */
 
 }
 
