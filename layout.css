@@ -16,16 +16,9 @@
   
 }
 
-#sidebar {
-  width: 100px;
-  height: 300px;
-  border: 2px solid #2efa13;
-
-}
-
 #author {
 
-  border: 2px solid #bcd5eb00;
+  border: 1px solid rgba(0, 0, 0, 0);
   width: 80%;
   max-width: 500px;
   min-width: 450px;
@@ -36,9 +29,7 @@
 }
 
 ul {
-  margin-left: 25%;
-  margin-right: 25%;
-  width: 600px;
+  width: 120px;
   /* border: solid rgb(0, 0, 0);  */
   list-style-type: none;
   overflow: hidden;
@@ -52,9 +43,8 @@ li a {
   font-size: 20px;
   display: block;
   color: rgb(95, 93, 93);
-  text-align: center;
-  padding: 30px;
   text-decoration: none;
+  padding-bottom: 25px;
 }
 
 #author img {
@@ -193,8 +183,27 @@ body {
   float: left;
 }
 
+#wrapper {
+
+  margin: auto;
+  height: 3000px;
+  width: 100%;
+  /* border: 5px solid rgb(8, 214, 1); */
+
+}
+
+#sidebar {
+  float: left;
+  margin-right: 800px;
+  margin-left: 25px;
+  width: 150px;
+  height: 150px;
+  /* border: 2px solid #e90f7c; */
+
+}
+
 .box {
-    float: left;
+    /* border: solid rgb(0, 68, 255); */
     width: 70%;
     /* min-width: 800px; */
     background-color: rgba(255, 255, 255, 0.856);
