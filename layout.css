@@ -141,19 +141,10 @@ body {
   margin-left: 5%;
   float: left;
 }
-/* 
-#text2 {
 
-  margin-top: 15px;
-  width: 35%;
-  height: 50%;
-  margin-left: 55px;
-  background-color: rgb(177, 205, 236);
-  float: left;
-} */
 
 #container3 {
-
+  font-family: Source Sans Pro,sans-serif;
   margin-top: 30px;
   border: 3px solid rgb(0, 0, 0);
   width: 80%;
@@ -165,23 +156,69 @@ body {
 }
 
 #figure3 {
-  border: 2px solid rgb(135, 166, 224);
-  margin-top: 15px;
-  width: 380px;
-  height: 405px;
-  margin-left: 20px;
-  float: left;
+
+  border: 2px solid rgb(190, 193, 196);
+  width: 650px;
+  height: 655px;
+  margin: auto;
 }
 
-#text3 {
+  
 
-  margin-top: 15px;
+
+/* 
+#text2 {
+
+  margin-top: 15px;S
   width: 35%;
   height: 50%;
   margin-left: 55px;
   background-color: rgb(177, 205, 236);
   float: left;
+} */
+
+#container4 {
+
+  margin-top: 30px;
+  border: 3px solid rgb(0, 0, 0);
+  width: 80%;
+  max-width: 1000px;
+  min-width: 800px;
+  height: 500px;
+  margin: auto;
+
 }
+
+#container4 img {
+ 
+  width: 375px;
+  height: 400px;
+
+}
+
+#text4 {
+
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 17px;
+  margin-top: 15px;
+  width: 35%;
+  height: 50%;
+  margin-left: 50px;
+  /* background-color: rgb(177, 205, 236); */
+  float: left;
+  color: rgba(0, 0, 0, 0.788);
+}
+
+#figure4 {
+  border: 2px solid rgb(190, 193, 196);
+  margin-top: 15px;
+  width: 380px;
+  height: 405px;
+  margin-left: 10%;
+  float: left;
+}
+
+
 
 #wrapper {
 
@@ -194,7 +231,7 @@ body {
 
 #sidebar {
   float: left;
-  margin-right: 800px;
+  margin-right: 99%;
   margin-left: 25px;
   width: 150px;
   height: 150px;
@@ -211,7 +248,7 @@ body {
     padding: 50px;
     margin-left: 15%;
     margin-right: 15%;
-    height: 3000px;
+    height: auto;
   }
 
   
