@@ -223,7 +223,7 @@ body {
 
 #container5 {
 
-   border: 3px solid rgb(0, 0, 0);  
+   /* border: 3px solid rgb(0, 0, 0);   */
   font-family: Source Sans Pro,sans-serif;;
   width: 80%;
   max-width: 1000px;
